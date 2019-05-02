@@ -1,5 +1,6 @@
 source 'https://www.rubygems.org'
 
-gemspec
+gem 'spec'
+gem 'surveyor'
 
 eval(File.read File.expand_path('../Gemfile.rails_version', __FILE__))
